@@ -117,7 +117,10 @@
     font-weight: 500;
     line-height: 40px;
   }
-
+section.video_support::before
+{
+        display: none;
+}
   .did_you_main p {
     font-family: "Poppins", sans-serif;
     color: #000;
