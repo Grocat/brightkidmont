@@ -1,0 +1,1260 @@
+  @font-face {
+    src: url('Itim-Regular.ttf');
+    font-family: "Itim-Regular";
+  }
+
+  section.key_requirements {
+    padding: 30px;
+  }
+
+  .key_requirement_main {
+    display: flex;
+    gap: 20px;
+  }
+
+  .key_requrie_sub_1 {
+    width: 55%;
+  }
+
+  .need_preschool {
+    width: 45%;
+  }
+
+  .key-inner_div h3 {
+    font-family: "Poppins", sans-serif;
+    background: #F98001;
+    font-weight: 700;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+    font-size: 40px;
+  }
+
+  .key-inner_div {
+    margin-bottom: 15px;
+  }
+
+  .key-inner_div_sub {
+    display: flex;
+    gap: 10px;
+    background: #01CCF2;
+    padding: 0 10px 10px 10px;
+  }
+
+  .inner_grid {
+    background: #fff;
+    width: 33.3%;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .inner_grid h5 {
+    text-align: center;
+    margin: 10px;
+    color: #912683;
+    font-family: "Poppins", sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+  }
+
+  .inner_grid p {
+    color: #F98001;
+    font-family: "Poppins", sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    margin: 10px 0;
+  }
+
+  .need_preschool {
+    background: #01CCF2;
+    border-radius: 56px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .need_preschool.need_preschool_new p {
+    color: #fff;
+    font-size: 50px;
+    margin-bottom: 30px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    line-height: 50px;
+  }
+
+  .join_need_new button {
+    width: 40%;
+    font-size: 18px !important;
+  }
+
+  .join_need_new a.whats_btn {
+    width: 40%;
+    font-size: 18px !important;
+    display: flex;
+    justify-content: center;
+  }
+
+  p.last-div {
+    color: #969696;
+    font-size: 16px;
+  }
+
+  .need_preschool.need_preschool-new {
+    width: 100%;
+    padding: 20px;
+  }
+
+  section.did_you_know {
+    padding: 30px;
+  }
+
+  .did_you_main h2 {
+    margin-bottom: 20px;
+    color: #912683;
+    font-family: itim-regular;
+    font-size: 45px;
+    font-weight: 500;
+    line-height: 40px;
+  }
+
+  .did_you_main p {
+    font-family: "Poppins", sans-serif;
+    color: #000;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: normal;
+    margin-bottom: 35px;
+  }
+
+  .did_you_main_sub {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .did_you_sub {
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+    background: linear-gradient(135deg, #FFE135 0%, #F0D000 50%, #E6C200 100%);
+    border: 2px solid #F5E050;
+    box-shadow: inset -2px 4px 58px 0px #CFC500;
+  }
+
+  .did_you_sub p {
+    font-size: 18px;
+    color: #97358C;
+    margin: 15px;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  .brand_support_div h2 {
+    color: #912683;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    font-weight: 600;
+  }
+
+  section.brand_support_section {
+    padding: 50px 30px;
+  }
+
+  .brand_support_div p {
+    font-family: "Poppins", sans-serif;
+    color: #4B4B4B;
+    font-weight: 400;
+    text-align: center;
+  }
+
+  .package_new {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    padding: 20px;
+    margin: 3rem 0;
+  }
+
+  .package_item p {
+    color: #01CCF2;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    margin: 10px 0;
+  }
+
+  .package_item {
+    border-right: 3px solid #F98001;
+  }
+
+  .did_you_sub img {
+    width: 100%;
+  }
+
+  section.Preschool_packages_new {
+    padding: 50px 30px;
+  }
+
+  .Preschool_packages_new h2 {
+    font-family: "Poppins", sans-serif;
+    color: #01CCF2;
+    font-weight: 700;
+    text-align: center;
+    font-size: 45px;
+  }
+
+  .Preschool_packages_new h4 {
+    font-family: "Poppins", sans-serif;
+    color: #F98001;
+    font-weight: 600;
+    text-align: center;
+    font-size: 40px;
+  }
+
+  .Preschool_packages_new h5 {
+    font-family: "Poppins", sans-serif;
+    color: #01CCF2;
+    font-weight: 600;
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 30px;
+  }
+
+  .comparison-table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+  }
+
+  .comparison-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    vertical-align: middle;
+    font-weight: 600;
+  }
+
+  section.comparative_section_new {
+    padding: 50px 20px;
+    background: #FEFFF1;
+  }
+
+  .criteria-header {
+    text-align: left;
+
+  }
+
+  .model-header .model-top,
+  .model-bottom {
+    padding: 10px;
+  }
+
+  .comp_new {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .comp_new p {
+    color: #912683;
+    font-family: "Poppins", sans-serif;
+    font-size: 35px;
+    line-height: 1.2;
+  }
+
+  .comp_new img {
+    width: 45px;
+    height: 45px;
+  }
+
+  .first_conent_div h2 {
+    color: #912683;
+    font-size: 40px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    margin: 20px 0;
+    font-weight: 700;
+  }
+
+  .comparison-table td:first-child {
+    background: #f7f7f7;
+    font-weight: bold;
+    text-align: left;
+    width: 200px;
+  }
+
+  .comparison-table tr:nth-child(even) td {
+    background: #fdfdfd;
+  }
+
+  .comparison-table tr:nth-child(odd) td {
+    background: #f9f9f9;
+  }
+
+  .section-row td {
+    background: #f1f1f1 !important;
+    font-weight: bold;
+    text-align: center;
+    color: #333;
+  }
+
+  section.key_highlights_section {
+    padding: 30px;
+  }
+
+  .Key_highlight_div h2 {
+    color: #F98001;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+  }
+
+  .Key_highlight_div li {
+    color: #912683;
+    font-family: "Poppins", sans-serif;
+    font-size: 22px;
+    margin: 10px 0;
+    font-weight: 500;
+  }
+
+  .Key_highlight_div ul {
+    margin: 20px 0;
+  }
+
+  section.bright_kid_edge_section {
+    padding: 50px 0;
+  }
+
+  .bright_main_div {
+    display: flex;
+    width: 100%;
+  }
+
+  .left_div_main {
+    width: 55%;
+    background: #FFEBBE;
+    padding: 30px 20px;
+  }
+
+  .left_conent_div h2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    padding: 20px;
+    color: #FA8C1A;
+    font-size: 40px;
+  }
+
+  .left_conent_div p {
+    font-family: "Poppins", sans-serif;
+    color: #000;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+  }
+
+  .left_inner_div {
+    display: flex;
+  }
+
+  .left_conent_div {
+    width: 65%;
+  }
+
+  .left_imag_div {
+    width: 35%;
+  }
+
+  .inner_left_conent {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+
+  .inner_sub_1 h5 {
+    text-align: left;
+    margin: 10px;
+    color: #912683;
+    font-family: "Poppins", sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+  }
+
+  .inner_sub_1 p {
+    line-height: normal;
+    color: #000;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    text-align: left;
+  }
+
+  .inner_sub_1,
+  .inner_sub_2,
+  .inner_sub_3,
+  .inner_sub_4 {
+    background: #FCD9A9;
+    text-align: center;
+    padding: 20px;
+    border-radius: 70px;
+  }
+
+  .right_div-new {
+    width: 45%;
+  }
+
+  .inner_sub_2 {
+    background: #EDFAFD;
+  }
+
+  .inner_sub_2 h5 {
+    text-align: right;
+    margin: 10px;
+    color: #912683;
+    font-family: "Poppins", sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+  }
+
+  .inner_sub_2 p {
+    line-height: normal;
+    color: #000;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    text-align: right;
+  }
+
+  .inner_sub_3 h5 {
+    text-align: left;
+    margin: 10px;
+    color: #912683;
+    font-family: "Poppins", sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+  }
+
+  .inner_sub_3 p {
+    line-height: normal;
+    color: #000;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    text-align: left;
+  }
+
+  .inner_sub_3 {
+    background: #EDFAFD;
+  }
+
+  .inner_sub_4 h5 {
+    text-align: right;
+    margin: 10px;
+    color: #912683;
+    font-family: "Poppins", sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+  }
+
+  .inner_sub_4 p {
+    line-height: normal;
+    color: #000;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    text-align: right;
+  }
+
+  .right_div-new {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .right_div-new h2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    padding: 20px;
+    color: #97358C;
+    font-size: 40px;
+  }
+
+  .right_div-new h4 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    padding: 20px;
+    color: #FA8C1A;
+    font-size: 40px;
+  }
+
+  .right_div-new p {
+    line-height: normal;
+    color: #000;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+  }
+
+  .inner-img_new {
+    position: absolute;
+    top: 34%;
+    left: 305px;
+  }
+
+  .new_koin p {
+    font-weight: 600;
+    font-size: 30px;
+    margin-top: 20px;
+  }
+
+  .left_new_inner {
+    position: relative;
+  }
+
+  .model-1 {
+    background: #ffe5d9;
+  }
+
+  /* Light peach */
+  .model-2 {
+    background: #d9f1ff;
+  }
+
+  /* Light blue */
+  .model-3 {
+    background: #ffecc7;
+  }
+
+  /* Light yellow */
+  .model-4 {
+    background: #e6f9e6;
+  }
+
+  /* Light green */
+  .model-5 {
+    background: #fff0b3;
+  }
+
+  /* Light gold */
+
+
+  .timeline-container {
+    width: 55%;
+
+    position: relative;
+    overflow: hidden;
+  }
+
+  .first_main_div {
+    display: flex;
+  }
+
+  .first_conent_div {
+    width: 45%;
+  }
+
+  .timeline-wrapper {
+    position: relative;
+    padding: 20px 0;
+  }
+
+  /* Vertical connecting line */
+  .timeline-wrapper::before {
+    content: '';
+    position: absolute;
+    top: 70px;
+    left: 45px;
+    height: 135px;
+    width: 2px;
+    background: black;
+    z-index: 1;
+  }
+
+  .timeline-block {
+    position: relative;
+    margin-bottom: 0;
+  }
+
+  .timeline-block:last-child {
+    margin-bottom: 0;
+  }
+
+  .timeline-icon {
+    position: absolute;
+    top: 0;
+    left: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: white;
+    border: 4px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    color: black;
+    z-index: 2;
+  }
+
+  .timeline-content {
+    margin-left: 90px;
+    padding: 15px 25px;
+    background: transparent;
+  }
+
+  .timeline-content h2 {
+    font-size: 25px;
+    font-weight: 500;
+    color: black;
+    margin-bottom: 15px;
+    line-height: 1.3;
+    font-family: 'Poppins';
+  }
+
+  .section-title {
+    font-size: 32px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .timeline-content p {
+    font-size: 18px;
+    line-height: 1.5;
+    color: black;
+    margin: 0;
+  }
+
+  .highlight {
+    font-weight: bold;
+  }
+
+  /* Second timeline block positioning */
+  .timeline-block:nth-child(2) {
+    border: 3px solid black;
+  }
+
+  .timeline-block:nth-child(2) .timeline-icon {
+    top: 30px;
+  }
+
+  .timeline-block:nth-child(2) .timeline-content {
+    padding-top: 10px;
+  }
+
+  section.your_pre_school {
+    background: #EDFAFD;
+    padding: 50px 30px;
+  }
+
+  .you_pre_main_div {
+    background: #01CCF2;
+    border-radius: 40px;
+    padding: 20px;
+  }
+
+  .first_you_section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .h2_first {
+    flex: 1;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+  }
+
+
+
+  .image_new_your {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .image_new_your img {
+    max-width: 90%;
+    height: auto;
+    transform: translate(58px, -20px);
+  }
+
+  .sub-sec_new_1,
+  .sub-sec_new_2,
+  .sub-sec_new_3,
+  .sub-sec_new_4,
+  .sub-sec_new_5 {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 100px;
+  }
+
+  .secound_sub {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .new_back {
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+    border-radius: 20px;
+    text-align: left !important;
+    position: relative;
+  }
+
+  .new_back h5 {
+    color: #97358C;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    margin: 10px 0;
+    font-weight: 600;
+  }
+
+  .new_back p {
+    font-family: "Poppins", sans-serif;
+    color: #000;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .sub-sec_new_5 {
+    margin-bottom: 30px;
+  }
+
+  .secound_sub_1 .new_back::before {
+    background-image: url(https://www.brightkidmont.com/wp-content/uploads/2025/08/recive.png);
+  }
+
+  /* Right-pointing arrows */
+  .secound_sub_1 .new_back::after,
+  .secound_sub_5 .new_back::after,
+  .secound_sub_9 .new_back::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: -200px;
+    transform: translateY(-50%);
+    width: 200px;
+    height: 50px;
+    background-image: url(https://www.brightkidmont.com/wp-content/uploads/2025/08/arrow.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  /* Downward arrows */
+  .secound_sub_2 .new_back::after,
+  .secound_sub_3 .new_back::after,
+  .secound_sub_6 .new_back::after,
+  .secound_sub_7 .new_back::after {
+    content: '';
+    position: absolute;
+    top: 115%;
+    left: 50%;
+    transform: translateX(-50%) rotate(90deg);
+    width: 110px;
+    height: 50px;
+    background-image: url(https://www.brightkidmont.com/wp-content/uploads/2025/08/arrow-down.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  /* Left-pointing arrows */
+.secound_sub_4 .new_back::after, .secound_sub_8 .new_back::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: -190px;
+    transform: translateY(-50%) rotate(180deg);
+    width: 190px;
+    height: 50px;
+    background-image: url(https://www.brightkidmont.com/wp-content/uploads/2025/08/arrow.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+  /* Base decoration element */
+  .secound_sub .new_back::before {
+    content: '';
+    position: absolute;
+    top: -22px;
+    left: -20px;
+    width: 70px;
+    height: 70px;
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: contain;
+  }
+
+  .secound_div_main {
+    margin-top: 50px;
+  }
+
+  .h2_first h2 {
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+    font-weight: 700;
+    font-size: 75px;
+  }
+
+  /* Example: different background image for each step */
+  .secound_sub_1 .new_back::before {
+    background-image: url('https://www.brightkidmont.com/wp-content/uploads/2025/08/recive.png');
+  }
+
+  .secound_sub_2 .new_back::before {
+    background-image: url('https://www.brightkidmont.com/wp-content/uploads/2025/08/finalize.png');
+  }
+
+  .secound_sub_3 .new_back::before {
+    background-image: url('https://www.brightkidmont.com/wp-content/uploads/2025/08/start.png');
+  }
+
+  .secound_sub_4 .new_back::before {
+    background-image: url('https://www.brightkidmont.com/wp-content/uploads/2025/08/custom.png');
+  }
+
+  .secound_sub_5 .new_back::before {
+    background-image: url('https://www.brightkidmont.com/wp-content/uploads/2025/08/prepare.png');
+  }
+
+  .secound_sub_6 .new_back::before {
+    background-image: url('https://www.brightkidmont.com/wp-content/uploads/2025/08/hire.png');
+  }
+
+  .secound_sub_7 .new_back::before {
+    background-image: url('https://www.brightkidmont.com/wp-content/uploads/2025/08/build.png');
+  }
+
+  .secound_sub_8 .new_back::before {
+    background-image: url('https://www.brightkidmont.com/wp-content/uploads/2025/08/amplify.png');
+  }
+
+  .secound_sub_9 .new_back::before {
+    background-image: url('https://www.brightkidmont.com/wp-content/uploads/2025/08/lunch.png');
+  }
+
+  .secound_sub_10 .new_back::before {
+    background-image: url('https://www.brightkidmont.com/wp-content/uploads/2025/08/admisiion.png');
+  }
+
+  /* ...and so on for other steps */
+
+  .secound_sub_1 .new_back,
+  .secound_sub_4 .new_back,
+  .secound_sub_5 .new_back,
+  .secound_sub_8 .new_back,
+  .secound_sub_9 .new_back {
+    background: #FBF4ED;
+
+  }
+
+  .secound_sub_2 .new_back,
+  .secound_sub_3 .new_back,
+  .secound_sub_6 .new_back,
+  .secound_sub_7 .new_back,
+  .secound_sub_10 .new_back {
+    background: #FFEBEE;
+  }
+
+  .sub-sec_new_1 {
+    margin-bottom: 100px;
+  }
+
+  @media screen and (max-width: 1400px) {
+
+    .inner-img_new {
+      left: 37%;
+    }
+  }
+  @media screen and (max-width: 1300px) {
+    .secound_sub_1 .new_back::after, .secound_sub_5 .new_back::after, .secound_sub_9 .new_back::after {
+
+    right: -170px;
+    width: 170px;
+
+}
+.secound_sub_4 .new_back::after, .secound_sub_8 .new_back::after {
+
+    left: -170px;
+    width: 170px;
+
+}
+  }
+  @media screen and (max-width: 1200px) {
+    .left_inner_div {
+      flex-direction: column;
+    }
+
+    .secound_sub_4 .new_back::after,
+    .secound_sub_8 .new_back::after {
+      left: -100px;
+      width: 100px;
+
+    }
+
+    .secound_sub_1 .new_back::after,
+    .secound_sub_5 .new_back::after,
+    .secound_sub_9 .new_back::after {
+      right: -100px;
+      width: 100px;
+    }
+
+    .new_back {
+      width: auto;
+    }
+
+    .h2_first h2 {
+      font-size: 55px;
+    }
+
+    .image_new_your img {
+      transform: translate(0px, 0px);
+    }
+
+    .left_conent_div {
+      width: 100%;
+    }
+
+    .left_imag_div {
+      width: 100%;
+      text-align: center;
+    }
+
+    .timeline-wrapper::before {
+      height: 160px;
+    }
+ .secound_sub_1 .new_back::after,
+    .secound_sub_5 .new_back::after,
+    .secound_sub_9 .new_back::after {
+      display: none;
+    }
+
+    .secound_sub_1 .new_back::after,
+    .secound_sub_5 .new_back::after,
+    .secound_sub_9 .new_back::after {
+      display: none;
+    }
+
+    .secound_sub_2 .new_back::after,
+    .secound_sub_3 .new_back::after,
+    .secound_sub_6 .new_back::after,
+    .secound_sub_7 .new_back::after {
+      display: none;
+    }
+
+    .secound_sub_4 .new_back::after,
+    .secound_sub_8 .new_back::after {
+      display: none;
+    }
+
+  }
+
+  @media screen and (max-width: 1024px) {
+    .key_requirement_main {
+      flex-direction: column;
+    }
+
+   
+    .first_main_div {
+      flex-direction: column;
+    }
+
+    .first_conent_div {
+      width: 100%;
+    }
+
+    .timeline-container {
+      width: 100%;
+    }
+
+    .timeline-wrapper::before {
+      height: 140px;
+    }
+
+    .bright_main_div {
+      flex-direction: column;
+    }
+
+    .left_div_main {
+      width: 100%;
+    }
+
+    .right_div-new {
+      width: 100%;
+    }
+
+    .did_you_main_sub {
+      grid-template-columns: 1fr 1fr;
+    }
+
+    .key_requrie_sub_1,
+    .need_preschool {
+      width: 100%;
+      padding: 30px;
+    }
+
+    .did_you_main h2 {
+      font-size: 35px;
+    }
+
+    .did_you_main p {
+      font-size: 18px;
+      margin-bottom: 20px;
+    }
+  }
+
+  @media screen and (max-width: 800px) {
+    .key-inner_div h3 {
+      font-size: 30px;
+    }
+
+    .first_you_section {
+      display: block;
+    }
+
+    .h2_first {
+      margin: 20px 0;
+      text-align: center;
+    }
+
+    .h2_first h2 {
+      font-size: 40px;
+    }
+
+    .sub-sec_new_1,
+    .sub-sec_new_2,
+    .sub-sec_new_3,
+    .sub-sec_new_4,
+    .sub-sec_new_5 {
+      display: block;
+    }
+
+    .secound_sub {
+      width: 100%;
+    }
+
+    .secound_sub {
+      width: 100%;
+      margin-bottom: 30px;
+    }
+
+    .sub-sec_new_1 {
+      margin-bottom: 30px;
+    }
+
+    .sub-sec_new_1,
+    .sub-sec_new_2,
+    .sub-sec_new_3,
+    .sub-sec_new_4,
+    .sub-sec_new_5 {
+      margin-bottom: 30px;
+    }
+
+    section.your_pre_school {
+      background: #EDFAFD;
+      padding: 30px 10px;
+    }
+
+    .inner_left_conent {
+
+      grid-template-columns: 1fr;
+    }
+
+    .inner-img_new img {
+      display: none;
+    }
+
+    .model-header .model-top,
+    .model-bottom {
+      width: 320px;
+    }
+
+    .comparison-table tr:nth-child(even) td {
+      width: 320px;
+    }
+
+    .Preschool_packages_new h2 {
+      font-size: 35px;
+    }
+
+    .Preschool_packages_new h4 {
+      font-size: 30px;
+    }
+
+    .Preschool_packages_new h5 {
+      font-size: 28px;
+    }
+
+    section.Preschool_packages_new {
+      padding: 30px 10px;
+    }
+
+    .package_new {
+      grid-template-columns: 1fr;
+
+    }
+
+    .package_item {
+      border: none;
+    }
+
+    .inner_grid h5 {
+      font-size: 20px;
+
+    }
+
+    section.comparative_section_new {
+      padding: 50px 10px;
+    }
+
+    .inner_grid p {
+      font-size: 18px;
+    }
+
+    p.last-div {
+      font-size: 14px;
+    }
+
+    .need_preschool.need_preschool_new p {
+      color: #fff;
+      font-size: 30px;
+      margin-bottom: 15px;
+      line-height: 40px;
+    }
+
+    .join_need_new button {
+      font-size: 16px !important;
+      width: 100%;
+    }
+
+    .join_need_new a.whats_btn {
+      font-size: 16px !important;
+      width: 100%;
+    }
+
+    .join_need.join_need_new {
+      flex-direction: column;
+    }
+
+    section.key_requirements {
+      padding: 30px 10px;
+    }
+
+    .did_you_main h2 {
+      text-align: center;
+    }
+
+    .did_you_main p {
+      text-align: center;
+    }
+
+    section.brand_support_section {
+      padding: 30px 10px;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .timeline-content {
+      margin-left: 80px;
+      padding: 10px 20px;
+    }
+
+    .timeline-content h2 {
+      font-size: 24px;
+      text-align: center;
+    }
+
+    .timeline-block:nth-child(2) .timeline-content {
+      text-align: center;
+    }
+
+
+    .section-title {
+      font-size: 28px;
+    }
+
+    .timeline-content p {
+      font-size: 16px;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .key-inner_div_sub {
+      flex-direction: column;
+    }
+
+    .timeline-wrapper::before {
+      height: 200px;
+    }
+
+    .comp_new p {
+      font-size: 22px;
+    }
+
+    .first_conent_div h2 {
+      font-size: 22px;
+      text-align: center;
+    }
+
+    .timeline-icon i.fa-solid.fa-circle-user {
+      display: none;
+    }
+
+    .timeline-icon,
+    .timeline-wrapper::before {
+      display: none;
+    }
+
+    .timeline-content {
+      margin-left: 0px;
+    }
+
+
+    .left_div_main {
+      padding: 30px 10px;
+    }
+
+    .left_conent_div h2 {
+      font-size: 30px;
+      text-align: center;
+    }
+
+    .right_div-new h2 {
+      font-size: 35px;
+    }
+
+    .right_div-new h4 {
+      font-size: 30px;
+    }
+
+    .right_div-new p {
+      font-size: 16px;
+    }
+
+    .did_you_main_sub {
+      grid-template-columns: 1fr;
+    }
+
+    section.did_you_know {
+      padding: 30px 10px;
+    }
+
+    .inner_grid {
+      width: 100%;
+    }
+
+    .key_requrie_sub_1 {
+      padding: 30px 10px;
+    }
+  }
