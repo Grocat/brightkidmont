@@ -21,7 +21,7 @@
   }
 
   .key-inner_div h3 {
-    font-family: "Poppins", sans-serif;
+    font-family: itim-regular;
     background: #F98001;
     font-weight: 700;
     padding: 20px;
@@ -78,7 +78,7 @@
     color: #fff;
     font-size: 50px;
     margin-bottom: 30px;
-    font-family: "Poppins", sans-serif;
+        font-family: itim-regular;
     font-weight: 600;
     line-height: 50px;
   }
@@ -155,7 +155,7 @@ section.video_support::before
 
   .brand_support_div h2 {
     color: #912683;
-    font-family: "Poppins", sans-serif;
+        font-family: itim-regular;
     text-align: center;
     font-weight: 600;
   }
@@ -200,7 +200,7 @@ section.video_support::before
   }
 
   .Preschool_packages_new h2 {
-    font-family: "Poppins", sans-serif;
+    font-family: itim-regular;
     color: #01CCF2;
     font-weight: 700;
     text-align: center;
@@ -208,7 +208,7 @@ section.video_support::before
   }
 
   .Preschool_packages_new h4 {
-    font-family: "Poppins", sans-serif;
+    font-family: itim-regular;
     color: #F98001;
     font-weight: 600;
     text-align: center;
@@ -216,7 +216,7 @@ section.video_support::before
   }
 
   .Preschool_packages_new h5 {
-    font-family: "Poppins", sans-serif;
+    font-family: itim-regular;
     color: #01CCF2;
     font-weight: 600;
     text-align: center;
@@ -231,6 +231,48 @@ section.video_support::before
     font-family: "Poppins", sans-serif;
     font-size: 14px;
   }
+.comparison-table {
+  border-collapse: collapse;
+  width: 100%;
+  min-width: 800px; /* table will scroll if smaller screens */
+}
+
+.comparison-table th,
+.comparison-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+/* Wrapper for responsiveness */
+.table-wrapper {
+  width: 100%;
+  overflow-x: auto;
+  position: relative;
+}
+
+/* Freeze first column */
+.comparison-table th.criteria-header,
+.comparison-table td:first-child {
+  position: sticky;
+  left: 0;
+  z-index: 2;
+  background: #97358C;
+  color: #fff;
+}
+
+/* Alternate background colors for criteria cells */
+.comparison-table td:first-child {
+  background: #B267A4;
+  color: #fff;
+}
+
+/* Ensure header stays above */
+.comparison-table th.criteria-header {
+  z-index: 3;
+}
+
 
   .comparison-table td {
     border: 1px solid #ddd;
@@ -262,10 +304,12 @@ section.video_support::before
 
   .comp_new p {
     color: #912683;
-    font-family: "Poppins", sans-serif;
+        font-family: 'Itim-Regular';
     font-size: 35px;
     line-height: 1.2;
-  }
+  }section.video_support h2 {
+    font-family: 'Itim-Regular';
+}
 
   .comp_new img {
     width: 45px;
@@ -276,7 +320,7 @@ section.video_support::before
     color: #912683;
     font-size: 40px;
     font-weight: 500;
-    font-family: "Poppins", sans-serif;
+   font-family: itim-regular;
     margin: 20px 0;
     font-weight: 700;
   }
@@ -309,7 +353,7 @@ section.video_support::before
 
   .Key_highlight_div h2 {
     color: #F98001;
-    font-family: "Poppins", sans-serif;
+        font-family: itim-regular;
     font-weight: 700;
   }
 
@@ -341,7 +385,7 @@ section.video_support::before
   }
 
   .left_conent_div h2 {
-    font-family: "Poppins", sans-serif;
+    font-family: itim-regular;
     font-weight: 700;
     padding: 20px;
     color: #FA8C1A;
@@ -475,7 +519,7 @@ section.video_support::before
   }
 
   .right_div-new h2 {
-    font-family: "Poppins", sans-serif;
+    font-family: itim-regular;
     font-weight: 700;
     padding: 20px;
     color: #97358C;
@@ -483,7 +527,7 @@ section.video_support::before
   }
 
   .right_div-new h4 {
-    font-family: "Poppins", sans-serif;
+   font-family: itim-regular;
     font-weight: 700;
     padding: 20px;
     color: #FA8C1A;
@@ -604,6 +648,7 @@ section.video_support::before
     padding: 15px 25px;
     background: transparent;
   }
+
 
   .timeline-content h2 {
     font-size: 25px;
@@ -804,12 +849,14 @@ section.video_support::before
   }
 
   .h2_first h2 {
-    font-family: "Poppins", sans-serif;
+font-family: itim-regular;
     color: #fff;
     font-weight: 700;
     font-size: 75px;
   }
-
+h2.title,.section_tittle_style_02 h3 {
+    font-family: itim-regular !important;
+}
   /* Example: different background image for each step */
   .secound_sub_1 .new_back::before {
     background-image: url('https://www.brightkidmont.com/wp-content/uploads/2025/08/recive.png');
@@ -1084,7 +1131,7 @@ section.video_support::before
     }
 
     .comparison-table tr:nth-child(even) td {
-      width: 320px;
+      width: 230px;
     }
 
     .Preschool_packages_new h2 {
@@ -1173,6 +1220,12 @@ section.video_support::before
       padding: 10px 20px;
     }
 
+  .comparison-table th,
+  .comparison-table td {
+    font-size: 10px;
+    padding: 8px;
+     text-align: left;
+  }
     .timeline-content h2 {
       font-size: 24px;
       text-align: center;
@@ -1195,7 +1248,10 @@ section.video_support::before
   @media screen and (max-width: 600px) {
     .key-inner_div_sub {
       flex-direction: column;
+    }    .comparison-table tr:nth-child(even) td {
+      width: 100px;
     }
+
 
     .timeline-wrapper::before {
       height: 200px;
