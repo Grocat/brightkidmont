@@ -301,6 +301,13 @@ section.video_support::before
     align-items: center;
     gap: 20px;
   }
+  .Key_highlight_div p {
+    font-family: itim-regular;
+    color: #01CCF2;
+    font-weight: 600;
+    font-size: 35px;
+    margin: 30px 0;
+}
 
   .comp_new p {
     color: #912683;
@@ -848,12 +855,20 @@ section.video_support::before
     margin-top: 50px;
   }
 
-  .h2_first h2 {
-font-family: itim-regular;
+.h2_first h2 {
+    font-family: itim-regular;
     color: #fff;
     font-weight: 700;
-    font-size: 75px;
-  }
+    font-size: 60px;
+}
+.first_you_section p {
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: normal;
+    margin-bottom: 35px;
+}
 h2.title,.section_tittle_style_02 h3 {
     font-family: itim-regular !important;
 }
