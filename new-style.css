@@ -860,6 +860,9 @@ section.video_support::before
     color: #fff;
     font-weight: 700;
     font-size: 60px;
+}.preschool_main h1 {
+
+    font-size: 50px;
 }
 .first_you_section p {
     font-family: "Poppins", sans-serif;
