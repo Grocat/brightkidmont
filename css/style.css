@@ -1781,6 +1781,7 @@
 
     .emploment-box {
       padding: 20px;
+      width: 100%;
     }
 
     .empolyment_main {
@@ -1806,6 +1807,9 @@
     .curriculum-grid_new {
       grid-template-columns: 1fr;
     }
+    .stats-grid li {
+    text-align: left;
+}
 
     section.tab_section_sec {
       padding: 30px 10px;
