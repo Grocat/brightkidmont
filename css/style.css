@@ -1674,7 +1674,8 @@ p.new_tab_p {
 }
 
 .emploment-box:hover h4,
-.emploment-box:hover p {
+.emploment-box:hover p,
+.emploment-box:hover li {
   color: #fff;
 }
 
