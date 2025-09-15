@@ -1649,7 +1649,8 @@ p.new_tab_p {
 }
 
 .emploment-box h4,
-.emploment-box p {
+.emploment-box p,
+.emploment-box li {
   transition: color 0.5s ease-in-out;
   position: relative;
   z-index: 2;
@@ -1664,13 +1665,14 @@ p.new_tab_p {
   height: 100%;
   background: url("https://www.brightkidmont.com/wp-content/uploads/2025/09/desktop-2.jpg") center/cover no-repeat;
   opacity: 0;
-  transition: opacity 0.5s ease-in-out;
+  transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
   z-index: 1;
   border-radius: 10px;
 }
 
 .emploment-box:hover::before {
   opacity: 1;
+  transform: scale(1.05); /* slight zoom effect */
 }
 
 .emploment-box:hover h4,
